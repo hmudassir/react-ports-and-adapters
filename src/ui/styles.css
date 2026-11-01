@@ -1,0 +1,28 @@
+:root { --ink: #1c2230; --muted: #5d6576; --line: #e3e7ee; --accent: #2f5bd3; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); }
+body { margin: 0; background: #f6f7f9; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 32px 18px 60px; }
+h1 { margin: 0; } h2 { margin: 0 0 8px; font-size: 18px; }
+.muted { color: var(--muted); } .small { font-size: 13px; }
+.pill { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 9px; margin-right: 6px; border-radius: 99px; background: #e8edfb; color: var(--accent); }
+.filters { display: flex; gap: 10px; margin: 18px 0; }
+input, select { font: inherit; padding: 9px 11px; border: 1px solid var(--line); border-radius: 8px; background: #fff; width: 100%; box-sizing: border-box; }
+.filters select { width: 200px; }
+.books { list-style: none; padding: 0; margin: 0; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+.books li { border-bottom: 1px solid var(--line); padding: 0; } .books li:last-child { border: 0; }
+.books li.muted { padding: 14px; }
+.bookBtn { width: 100%; text-align: left; padding: 13px 15px; background: none; border: 0; font: inherit; cursor: pointer; }
+.bookBtn:hover { background: #f8f9fc; }
+.pager { display: flex; justify-content: space-between; align-items: center; margin: 12px 0; }
+.pager button, .btn { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: #fff; cursor: pointer; }
+.pager button:disabled { opacity: .45; cursor: default; }
+.btn { background: var(--accent); color: #fff; border: 0; font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin: 18px 0; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+.field { display: block; margin-bottom: 12px; font-size: 13px; font-weight: 600; }
+.field span:first-child { display: block; margin-bottom: 5px; }
+.fieldError { display: block; color: #9b1c1c; font-weight: 400; font-size: 12px; margin-top: 4px; }
+.notice { padding: 10px 12px; border-radius: 8px; margin: 10px 0; font-size: 14px; }
+.notice.error { background: #fdf2f2; color: #9b1c1c; } .notice.ok { background: #eff9f2; color: #1d6b3b; }
+.link { background: none; border: 0; padding: 0; color: var(--accent); font: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } .filters { flex-direction: column; } .filters select { width: 100%; } }

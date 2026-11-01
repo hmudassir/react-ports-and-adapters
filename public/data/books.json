@@ -1,0 +1,14 @@
+[
+  { "id": "b1", "title": "Pride and Prejudice", "author": "Jane Austen", "year": 1813, "tags": ["romance", "classic"] },
+  { "id": "b2", "title": "Frankenstein", "author": "Mary Shelley", "year": 1818, "tags": ["gothic", "science-fiction"] },
+  { "id": "b3", "title": "Jane Eyre", "author": "Charlotte Brontë", "year": 1847, "tags": ["romance", "gothic"] },
+  { "id": "b4", "title": "Wuthering Heights", "author": "Emily Brontë", "year": 1847, "tags": ["gothic", "romance"] },
+  { "id": "b5", "title": "Moby-Dick", "author": "Herman Melville", "year": 1851, "tags": ["adventure", "classic"] },
+  { "id": "b6", "title": "Great Expectations", "author": "Charles Dickens", "year": 1861, "tags": ["classic"] },
+  { "id": "b7", "title": "Little Women", "author": "Louisa May Alcott", "year": 1868, "tags": ["classic"] },
+  { "id": "b8", "title": "Middlemarch", "author": "George Eliot", "year": 1871, "tags": ["classic"] },
+  { "id": "b9", "title": "The Picture of Dorian Gray", "author": "Oscar Wilde", "year": 1890, "tags": ["gothic"] },
+  { "id": "b10", "title": "The Adventures of Sherlock Holmes", "author": "Arthur Conan Doyle", "year": 1892, "tags": ["mystery"] },
+  { "id": "b11", "title": "The Time Machine", "author": "H. G. Wells", "year": 1895, "tags": ["science-fiction", "adventure"] },
+  { "id": "b12", "title": "Dracula", "author": "Bram Stoker", "year": 1897, "tags": ["gothic"] }
+]
